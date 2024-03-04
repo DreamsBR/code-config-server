@@ -31,12 +31,11 @@ spring:
     show-sql: true
 
 management:
-    endpoints:
-        web:
-            exposure:
-                include:"*"
-    endpoints:
-        health:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      health:
             show-details: always
 
 

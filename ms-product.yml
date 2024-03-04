@@ -27,13 +27,13 @@ spring:
     show-sql: true
 
 management:
-    endpoints:
-        web:
-            exposure:
-                include:"*"
-    endpoints:
-        health:
-            show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      health:
+        show-details: always
+
 
 eureka:
   client:
