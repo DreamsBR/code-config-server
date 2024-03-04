@@ -35,10 +35,8 @@ management:
     web:
       exposure:
         include: "*"
-    endpoints:
       health:
         show-details: always
-
 
 eureka:
   client:
